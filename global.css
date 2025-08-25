@@ -1,0 +1,114 @@
+body, html{
+
+    background-color: gray;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: whitesmoke;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: blue;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: black;
+}
+
+
+.intro{
+    
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.intro p{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 700; 
+    line-height: 1.6;
+}
+
+.facts{
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.facts-list{
+    list-style-type: none;
+}
+
+.facts h2{
+     font-size: 2rem;
+     margin-bottom: 50px auto;
+     color: black;
+     text-align: center;
+}
+
+.facts ul{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 450;
+    line-height: 2;
+    color: black;
+}
+
+
+.about-me{
+     max-width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.about-me h2{
+    font-size: 2rem;
+     margin-bottom: 50px auto;
+     color: black;
+     text-align: center;
+}
+
+.about-me p{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 400; 
+    line-height: 1.6;
+}
